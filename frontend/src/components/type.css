@@ -1,0 +1,22 @@
+.typing-container {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    display: inline;
+  }
+  
+  .typing-text {
+    display: inline;
+  }
+  
+  .typing-cursor {
+    display: inline;
+    opacity: 1;
+    animation: blink 1.7s infinite;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
